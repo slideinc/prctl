@@ -29,6 +29,7 @@ setup(
 )
 
 MANIFEST = (
+    "LICENSE",
     "setup.py",
     "paver-minilib.zip",
     "prctlmodule.c",
