@@ -11,6 +11,7 @@ setup(
     name="prctl",
     description="C extension for access to the prctl(2) system call",
     version="1.0",
+    license="bsd",
     ext_modules=[Extension(
         'prctl',
         ['prctlmodule.c'],
@@ -20,7 +21,7 @@ setup(
     classifiers = [
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
-        #"License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: BSD License",
         "Natural Language :: English",
         "Operating System :: Unix",
         "Programming Language :: C",
