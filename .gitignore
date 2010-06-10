@@ -1,0 +1,7 @@
+.*.swp
+prctl.egg-info/*
+MANIFEST.in
+build/*
+docs/build/*
+dist/*
+html/*
