@@ -12,6 +12,8 @@ setup(
     description="C extension for access to the prctl(2) system call",
     version="1.0",
     license="bsd",
+    author="Libor Michalek",
+    author_email="libor@pobox.com",
     ext_modules=[Extension(
         'prctl',
         ['prctlmodule.c'],
